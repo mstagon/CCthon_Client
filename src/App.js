@@ -6,6 +6,7 @@ import Blank2 from './pages/Blank2';
 import Blank3 from './pages/Blank3';
 import Blank4 from './pages/Blank4';
 import CHAT from "./pages/CHAT";
+import Blank5 from "./pages/Blank5";
 function App() {
     return (
         <BrowserRouter>
@@ -15,7 +16,7 @@ function App() {
                     <Route path='/started' element={<Blank2 />} />
                     <Route path='/calendar' element={<Blank3 />} />
                     <Route path='/user' element={<Blank4 />} />
-                    <Route path='/order' element={<Blank2 />} />
+                    <Route path='/order' element={<Blank5 />} />
                 </Route>
             </Routes>
         </BrowserRouter>

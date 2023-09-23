@@ -49,6 +49,7 @@ function CHAT() {
 
     };
 
+
     const handleInputKeyPress = (e) => {
         if (e.key === 'Enter') {
             handleSendMessage();

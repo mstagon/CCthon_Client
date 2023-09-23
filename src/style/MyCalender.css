@@ -25,17 +25,17 @@
     left: 50%; /* 화면 가운데에 위치하도록 설정 (가로 중앙) */
     transform: translateX(-50%); /* 가로 중앙으로 정렬 */
     background-color: white;
-    width: 300px; /* 원하는 너비로 조정하세요 */
-    height: 200px; /* 원하는 높이로 조정하세요 */
-    padding: 50px; /* 내용과의 간격을 설정하세요 */
+    width: 300px;
+    height: 200px;
+    padding: 50px;
 
 }
 
 .button {
-    background-color: #BB7CD2; /* 배경색 */
-    color: #ffffff; /* 텍스트 색상 */
-    padding: 10px 20px; /* 패딩 */
-    border: none; /* 테두리 제거 */
-    cursor: pointer; /* 커서 스타일 변경 (포인터) */
+    background-color: #BB7CD2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 
 }

@@ -19,7 +19,8 @@ const MYpage = () => {
 
   return (
     <div>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+      <div style={{ display: 'flex', alignItems: 'center', margin: 20,
+                  marginLeft:150, }}>
         <input
           type="text"
           placeholder="자소서를 작성해주세요."
@@ -44,7 +45,12 @@ const MYpage = () => {
           }}
         />
       </div>
+
+        <div style={{
+                  margin: 20,
+                  marginLeft:150,}}>
         <button onClick={handleSetButton}>작성 완료</button> {/* 버튼 추가 */}
+        </div>
     </div>
   );
 };

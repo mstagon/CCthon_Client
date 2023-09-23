@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-
-const MYpage = () => {
+const Mypage = () => {
   const [text1, setText1] = useState('');
   const [text2, setText2] = useState('');
 
@@ -13,16 +12,15 @@ const MYpage = () => {
     setText2(event.target.value);
   };
 
-   const handleSetButton = () => {
-    setText1(text1); // 버튼 클릭 시 text1 상태 업데이트
+  const handleSetButton = () => {
+    // "작성 완료" 버튼 클릭 시 text1 상태를 text2 상태로 복사
+    setText2(text1);
   };
 
   return (
     <div>
-      <div style={{ display: 'flex', alignItems: 'center', margin: 20,
-                  marginLeft:150, }}>
-        <input
-          type="text"
+      <div style={{ display: 'flex', alignItems: 'center', margin: 20, marginLeft: 150 }}>
+        <textarea
           placeholder="자소서를 작성해주세요."
           value={text1}
           onChange={handleChange1}
@@ -30,11 +28,10 @@ const MYpage = () => {
             width: '300px',
             height: '500px',
             fontSize: '16px',
-            marginRight: '10px', // 간격 조정
+            marginRight: '10px',
           }}
         />
-        <input
-          type="text"
+        <textarea
           placeholder="수정된 자소서입니다."
           value={text2}
           onChange={handleChange2}
@@ -45,14 +42,11 @@ const MYpage = () => {
           }}
         />
       </div>
-
-        <div style={{
-                  margin: 20,
-                  marginLeft:150,}}>
-        <button onClick={handleSetButton}>작성 완료</button> {/* 버튼 추가 */}
-        </div>
+      <div style={{ margin: 20, marginLeft: 150 }}>
+        <button onClick={handleSetButton}>작성 완료</button>
+      </div>
     </div>
   );
 };
 
-export default MYpage;
+export default Mypage;

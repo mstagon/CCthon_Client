@@ -6,14 +6,15 @@ import Blank2 from './pages/Blank2';
 import Blank3 from './pages/Blank3';
 import Blank4 from './pages/Blank4';
 import CHAT from "./pages/CHAT";
+import MyCalender from "./pages/MyCalender";
 function App() {
     return (
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<AppLayout />}>
-                    <Route index element={<CHAT />} />
+                    <Route index element={<MyCalender />} />
                     <Route path='/started' element={<Blank2 />} />
-                    <Route path='/calendar' element={<Blank3 />} />
+                    <Route path='/calendar' element={<CHAT />} />
                     <Route path='/user' element={<Blank4 />} />
                     <Route path='/order' element={<Blank2 />} />
                 </Route>

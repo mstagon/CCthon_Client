@@ -4,8 +4,8 @@ import './sidebar.scss';
 
 const sidebarNavItems = [
     {
-        display: 'CHAT',
-        icon: <i className='bx bx-home'></i>,
+        display: '일정',
+        icon: <i className='bx bx-calendar-alt'></i>,
         to: '/',
         section: ''
     },
@@ -16,8 +16,8 @@ const sidebarNavItems = [
         section: 'started'
     },
     {
-        display: '3',
-        icon: <i className='bx bx-calendar'></i>,
+        display: 'Chat',
+        icon: <i className='bx bx-chat'></i>,
         to: '/calendar',
         section: 'calendar'
     },

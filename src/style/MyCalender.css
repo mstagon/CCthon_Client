@@ -1,13 +1,3 @@
-/*.fc {*/
-/*    display: flex;*/
-/*}*/
-/*.custom-calendar {*/
-/*  border: none !important; !* Border 없애기 *!*/
-/*  height: 500px !important; !* 크기 조정 *!*/
-/*  !* 다른 스타일 속성 추가 가능 *!*/
-/*}*/
-
-
 /* FullCalendar 월 달력의 각 날짜 (day) border를 제거 */
 .fc-dayGridMonth-view .fc-scrollgrid {
   border: none !important;
@@ -19,16 +9,26 @@
 }
 
 .fc-header-toolbar {
-    background-color: #212936;
-    font-size: 7px;
+    background-color: #FFF2AE;
+    font-size: 10px;
 
 }
 
 .fc .fc-button-primary {
-  background-color: #212936; /* 원하는 배경색으로 설정 */
+  background-color: #FFF2AE; /* 원하는 배경색으로 설정 */
     border: none;
 }
 
+.event-popup {
+       position: absolute;
+    top: 0; /* 원하는 상단 위치로 조정하세요 */
+    left: 50%; /* 화면 가운데에 위치하도록 설정 (가로 중앙) */
+    transform: translateX(-50%); /* 가로 중앙으로 정렬 */
+    background-color: white;
+    width: 300px; /* 원하는 너비로 조정하세요 */
+    height: 200px; /* 원하는 높이로 조정하세요 */
+    padding: 20px; /* 내용과의 간격을 설정하세요 */
+}
 /*!* FullCalendar 버튼 활성화 상태의 스타일 *!*/
 /*.fc .fc-button-primary.fc-button-active {*/
 /*  background-color: #212936;*/

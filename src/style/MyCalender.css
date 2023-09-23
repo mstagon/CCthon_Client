@@ -25,13 +25,14 @@
     left: 50%; /* 화면 가운데에 위치하도록 설정 (가로 중앙) */
     transform: translateX(-50%); /* 가로 중앙으로 정렬 */
     background-color: white;
-    width: 300px;
-    height: 200px;
-    padding: 50px;
+    width: 400px;
+    height: 150px;
+    padding: 10px;
 
 }
 
 .button {
+    transform: translateX(200%); /* 가로 중앙으로 정렬 */
     background-color: #BB7CD2;
     color: #ffffff;
     padding: 10px 20px;

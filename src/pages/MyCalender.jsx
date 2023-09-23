@@ -28,7 +28,7 @@ class MyCalendar extends Component {
     componentDidMount() {
 
         const eventData = [
-            { title: 'LG 공고', date: '2023-10-23', color: '#111111', url: 'https://www.lge.co.kr' },
+            { title: 'LG 공고', date: '2023-10-23', color: '#111111', url: 'https://careers.lg.com/main/Index.rpi' },
             { title: '삼성전자 공고', start: '2023-09-05', end: '2023-09-14', color: '#b1aee5',  },
         ];
 

@@ -35,8 +35,8 @@ class MyCalendar extends Component {
         // 이벤트 데이터를 외부에서 가져오는 코드 예시
         // 실제로는 서버에서 데이터를 가져오거나 다른 방법으로 데이터를 채워야 합니다.
         const eventData = [
-            { title: 'LG 공고', date: '2023-10-23', color: '#111111' },
-            { title: '삼성전자 공고', start: '2023-09-05', end: '2023-09-14', color: '#b1aee5', link:'https://www.lge.co.kr/' },
+            { title: 'LG 공고', date: '2023-10-23', color: '#111111', url: 'https://www.lge.co.kr' },
+            { title: '삼성전자 공고', start: '2023-09-05', end: '2023-09-14', color: '#b1aee5',  },
         ];
 
         this.setState({ events: eventData });
@@ -62,7 +62,7 @@ class MyCalendar extends Component {
                   color:"#BB7CD2",
                   fontSize:15,
                   backgroundColor: "#FFF2AE",
-
+                  whiteSpace:"pre-wrap"
                     }}>
             <FullCalendar
                  plugins={[dayGridPlugin,timeGridPlugin,interactionPlugin]}
@@ -85,8 +85,11 @@ class MyCalendar extends Component {
                     <div className="event-popup">
                         <h3>{this.state.clickedEvent.title}</h3>
                         <p>Date: {this.state.clickedEvent.date}</p>
-                        <p>Link: {this.state.clickedEvent.link}</p>
-                        <button onClick={this.closeEventPopup}>Close</button>
+                         <p>
+                            Link: <a href={this.state.clickedEvent.url} target="_blank" rel="noopener noreferrer">{this.state.clickedEvent.url}</a>
+                        </p>
+                        <p><br/></p>
+                        <button className="button" onClick={this.closeEventPopup}>Close</button>
                     </div>
                 )}
           </div>

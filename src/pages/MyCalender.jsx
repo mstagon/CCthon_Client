@@ -6,12 +6,6 @@ import interactionPlugin from "@fullcalendar/interaction";
 import '../style/MyCalender.css'
 import * as events from "events";
 
-// const MyCalender = () => {
-//     return <div>This is Blank page4</div>;
-// };
-//
-// export default MyCalender;
-
 class MyCalendar extends Component {
 
 //     constructor(props){
@@ -32,8 +26,7 @@ class MyCalendar extends Component {
     }
 
     componentDidMount() {
-        // 이벤트 데이터를 외부에서 가져오는 코드 예시
-        // 실제로는 서버에서 데이터를 가져오거나 다른 방법으로 데이터를 채워야 합니다.
+
         const eventData = [
             { title: 'LG 공고', date: '2023-10-23', color: '#111111', url: 'https://www.lge.co.kr' },
             { title: '삼성전자 공고', start: '2023-09-05', end: '2023-09-14', color: '#b1aee5',  },

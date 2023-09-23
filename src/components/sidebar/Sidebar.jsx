@@ -10,28 +10,23 @@ const sidebarNavItems = [
         section: ''
     },
     {
-        display: '2',
-        icon: <i className='bx bx-star'></i>,
-        to: '/started',
-        section: 'started'
-    },
-    {
         display: 'Chat',
         icon: <i className='bx bx-chat'></i>,
         to: '/calendar',
         section: 'calendar'
     },
     {
-        display: '4',
+        display: '내 정보',
         icon: <i className='bx bx-user'></i>,
         to: '/user',
         section: 'user'
     },
     {
-        display: '5',
+        display: '취업 정보',
         icon: <i className='bx bx-receipt'></i>,
         to: '/order',
-        section: 'order'
+        section: 'order',
+
     },
 ]
 

@@ -1,1 +1,11 @@
-[리라이프_취업의신.pdf](https://github.com/user-attachments/files/19726411/_.pdf)
+
+![리라이프_취업의신_page-0001](https://github.com/user-attachments/assets/d32accb6-155c-4eac-ae38-0307757dbc32)
+![리라이프_취업의신_page-0002](https://github.com/user-attachments/assets/d6872d3b-4a49-40cb-82ad-fa11d21e153d)
+![리라이프_취업의신_page-0003](https://github.com/user-attachments/assets/104551f6-cbb7-4f13-92ad-562baabb0aa0)
+![리라이프_취업의신_page-0004](https://github.com/user-attachments/assets/f2b57480-1e62-49a0-9dc9-91f8a2777461)
+![리라이프_취업의신_page-0005](https://github.com/user-attachments/assets/af705704-7a5d-44c6-a245-29194d0a1f65)
+![리라이프_취업의신_page-0006](https://github.com/user-attachments/assets/38ad82cd-0a19-47eb-aa32-5f9b0adf6339)
+![리라이프_취업의신_page-0007](https://github.com/user-attachments/assets/b5d3fa31-583f-40b8-b861-dc6a28eb345f)
+![리라이프_취업의신_page-0008](https://github.com/user-attachments/assets/4a2f3410-d44c-4e5c-bd4b-2c3ad3207040)
+![리라이프_취업의신_page-0009](https://github.com/user-attachments/assets/3aa55bc9-c575-4127-9cf0-76b6ecdc10ee)
+![리라이프_취업의신_page-0010](https://github.com/user-attachments/assets/cab3a537-1bbc-418e-b603-a4c73c01fe9e)
